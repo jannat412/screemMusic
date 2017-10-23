@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".PlayerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shironamhin"
+        android:textStyle="bold"
+        android:textColor="#C0C0C0" />
+
+    <Button
+        android:padding="15dp"
+        android:textSize="15pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/playbuttonsm"
+        android:id="@+id/ButtonPlayStop" />
+
+    <SeekBar
+        android:id="@+id/SeekBar01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/currentposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00" />
+    <TextView
+        android:id="@+id/totalposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00" />
+
+
+</LinearLayout>
